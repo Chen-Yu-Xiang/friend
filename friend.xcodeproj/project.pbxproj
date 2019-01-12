@@ -7,14 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		398F540121EA4E7400404200 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398F540021EA4E7400404200 /* SettingViewController.swift */; };
+		398F540321EA52E000404200 /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398F540221EA52E000404200 /* Setting.swift */; };
+		398F540521EA552400404200 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398F540421EA552400404200 /* User.swift */; };
+		398F540721EA55EC00404200 /* RankTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398F540621EA55EC00404200 /* RankTableViewController.swift */; };
+		398F540921EA560F00404200 /* RankTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398F540821EA560F00404200 /* RankTableViewCell.swift */; };
+		398F540F21EA56F600404200 /* EditTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398F540E21EA56F600404200 /* EditTableViewController.swift */; };
 		39E85CEF21E9E1C900F0E9D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E85CEE21E9E1C900F0E9D4 /* AppDelegate.swift */; };
 		39E85CF121E9E1C900F0E9D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E85CF021E9E1C900F0E9D4 /* ViewController.swift */; };
 		39E85CF421E9E1C900F0E9D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39E85CF221E9E1C900F0E9D4 /* Main.storyboard */; };
 		39E85CF621E9E1CC00F0E9D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39E85CF521E9E1CC00F0E9D4 /* Assets.xcassets */; };
 		39E85CF921E9E1CC00F0E9D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39E85CF721E9E1CC00F0E9D4 /* LaunchScreen.storyboard */; };
+		39E85D0121E9E26E00F0E9D4 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E85D0021E9E26E00F0E9D4 /* Game.swift */; };
+		39E85D0321E9E2AB00F0E9D4 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E85D0221E9E2AB00F0E9D4 /* GameViewController.swift */; };
+		39E85D0521E9E34C00F0E9D4 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E85D0421E9E34C00F0E9D4 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		398F540021EA4E7400404200 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		398F540221EA52E000404200 /* Setting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
+		398F540421EA552400404200 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		398F540621EA55EC00404200 /* RankTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankTableViewController.swift; sourceTree = "<group>"; };
+		398F540821EA560F00404200 /* RankTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankTableViewCell.swift; sourceTree = "<group>"; };
+		398F540E21EA56F600404200 /* EditTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTableViewController.swift; sourceTree = "<group>"; };
 		39E85CEB21E9E1C900F0E9D4 /* friend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = friend.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39E85CEE21E9E1C900F0E9D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		39E85CF021E9E1C900F0E9D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +37,9 @@
 		39E85CF521E9E1CC00F0E9D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		39E85CF821E9E1CC00F0E9D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		39E85CFA21E9E1CC00F0E9D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39E85D0021E9E26E00F0E9D4 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		39E85D0221E9E2AB00F0E9D4 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		39E85D0421E9E34C00F0E9D4 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +75,15 @@
 				39E85CEE21E9E1C900F0E9D4 /* AppDelegate.swift */,
 				39E85CF021E9E1C900F0E9D4 /* ViewController.swift */,
 				39E85CF221E9E1C900F0E9D4 /* Main.storyboard */,
+				39E85D0021E9E26E00F0E9D4 /* Game.swift */,
+				39E85D0221E9E2AB00F0E9D4 /* GameViewController.swift */,
+				398F540021EA4E7400404200 /* SettingViewController.swift */,
+				398F540621EA55EC00404200 /* RankTableViewController.swift */,
+				398F540821EA560F00404200 /* RankTableViewCell.swift */,
+				398F540E21EA56F600404200 /* EditTableViewController.swift */,
+				398F540221EA52E000404200 /* Setting.swift */,
+				398F540421EA552400404200 /* User.swift */,
+				39E85D0421E9E34C00F0E9D4 /* MainViewController.swift */,
 				39E85CF521E9E1CC00F0E9D4 /* Assets.xcassets */,
 				39E85CF721E9E1CC00F0E9D4 /* LaunchScreen.storyboard */,
 				39E85CFA21E9E1CC00F0E9D4 /* Info.plist */,
@@ -135,8 +162,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39E85D0321E9E2AB00F0E9D4 /* GameViewController.swift in Sources */,
 				39E85CF121E9E1C900F0E9D4 /* ViewController.swift in Sources */,
+				398F540321EA52E000404200 /* Setting.swift in Sources */,
+				39E85D0121E9E26E00F0E9D4 /* Game.swift in Sources */,
+				398F540521EA552400404200 /* User.swift in Sources */,
 				39E85CEF21E9E1C900F0E9D4 /* AppDelegate.swift in Sources */,
+				398F540F21EA56F600404200 /* EditTableViewController.swift in Sources */,
+				398F540721EA55EC00404200 /* RankTableViewController.swift in Sources */,
+				39E85D0521E9E34C00F0E9D4 /* MainViewController.swift in Sources */,
+				398F540121EA4E7400404200 /* SettingViewController.swift in Sources */,
+				398F540921EA560F00404200 /* RankTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
